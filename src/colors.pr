@@ -1,3 +1,7 @@
 {* Export example code goes here *}
-{[ let helloWorld = "Hello World" /]}
-{{ helloWorld }}
+:root {
+{[ let brand = ds.currentBrand() /]}
+{[ for token in ds.tokensByType("Color", brand.id) ]}
+    {[ inject "rendered-token-var" context token /]}
+{[/]}
+}

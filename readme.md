@@ -1,2 +1,2 @@
-# Exporter-Example
-Example exporter for Supernova DSM
+# Rise Exporter
+Rise DS code exporter for Store Operation teams
