@@ -1,1 +1,3 @@
 {* Export example code goes here *}
+{[ let helloWorld = "Hello World" /]}
+{{ helloWorld }}
