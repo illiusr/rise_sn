@@ -1,7 +1,7 @@
-{* Export example code goes here *}
+{* Export Colors *}
 :root {
 {[ let brand = ds.currentBrand() /]}
 {[ for token in ds.tokensByType("Color", brand.id) ]}
-    {[ inject "rendered-token-var" context token /]}
+{[ inject "rendered-token-var" context token /]}
 {[/]}
 }
